@@ -81,7 +81,8 @@ class _LoginState extends State<LoginPage>{
                                             RoundedRectangleBorder(
                                                 borderRadius: BorderRadius.circular(18.0),
                                                 side: BorderSide(color: Colors.white)))),
-                                    onPressed: () => null),
+                                    onPressed: () =>  Get.off(() => HomeScreen())
+                                ),
                               ),
                               SizedBox(
                                 width: kSpace,

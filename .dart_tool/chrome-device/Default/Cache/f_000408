@@ -1,0 +1,634 @@
+define(['dart_sdk', 'packages/flutter/src/material/colors.dart', 'packages/flutter/src/painting/colors.dart', 'packages/flutter/src/painting/gradient.dart', 'packages/flutter/src/painting/alignment.dart'], (function load__packages__smw_shop_backend__helper__style_dart(dart_sdk, packages__flutter__src__material__colors$46dart, packages__flutter__src__painting__colors$46dart, packages__flutter__src__painting__gradient$46dart, packages__flutter__src__painting__alignment$46dart) {
+  'use strict';
+  const core = dart_sdk.core;
+  const ui = dart_sdk.ui;
+  const dart = dart_sdk.dart;
+  const dartx = dart_sdk.dartx;
+  const colors = packages__flutter__src__material__colors$46dart.src__material__colors;
+  const colors$ = packages__flutter__src__painting__colors$46dart.src__painting__colors;
+  const gradient = packages__flutter__src__painting__gradient$46dart.src__painting__gradient;
+  const alignment = packages__flutter__src__painting__alignment$46dart.src__painting__alignment;
+  var style = Object.create(dart.library);
+  dart._checkModuleNullSafetyMode(true);
+  const CT = Object.create({
+    _: () => (C, CT)
+  });
+  dart.defineLazy(CT, {
+    get C2() {
+      return C[2] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294699495.0
+      });
+    },
+    get C3() {
+      return C[3] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294954172.0
+      });
+    },
+    get C4() {
+      return C[4] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294945681.0
+      });
+    },
+    get C5() {
+      return C[5] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294937189.0
+      });
+    },
+    get C6() {
+      return C[6] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294930499.0
+      });
+    },
+    get C7() {
+      return C[7] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294924066.0
+      });
+    },
+    get C8() {
+      return C[8] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294201630.0
+      });
+    },
+    get C9() {
+      return C[9] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4293282329.0
+      });
+    },
+    get C10() {
+      return C[10] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4292363029.0
+      });
+    },
+    get C11() {
+      return C[11] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4290721292.0
+      });
+    },
+    get C1() {
+      return C[1] = dart.constMap(core.int, ui.Color, [50, C[2] || CT.C2, 100, C[3] || CT.C3, 200, C[4] || CT.C4, 300, C[5] || CT.C5, 400, C[6] || CT.C6, 500, C[7] || CT.C7, 600, C[8] || CT.C8, 700, C[9] || CT.C9, 800, C[10] || CT.C10, 900, C[11] || CT.C11]);
+    },
+    get C0() {
+      return C[0] = dart.const({
+        __proto__: colors.MaterialColor.prototype,
+        [Color_value]: 4294924066.0,
+        [ColorSwatch__swatch]: C[1] || CT.C1
+      });
+    },
+    get C14() {
+      return C[14] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294962158.0
+      });
+    },
+    get C15() {
+      return C[15] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294954450.0
+      });
+    },
+    get C16() {
+      return C[16] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4293892762.0
+      });
+    },
+    get C17() {
+      return C[17] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4293227379.0
+      });
+    },
+    get C18() {
+      return C[18] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4293874512.0
+      });
+    },
+    get C19() {
+      return C[19] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294198070.0
+      });
+    },
+    get C20() {
+      return C[20] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4293212469.0
+      });
+    },
+    get C21() {
+      return C[21] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4292030255.0
+      });
+    },
+    get C22() {
+      return C[22] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4291176488.0
+      });
+    },
+    get C23() {
+      return C[23] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4290190364.0
+      });
+    },
+    get C13() {
+      return C[13] = dart.constMap(core.int, ui.Color, [50, C[14] || CT.C14, 100, C[15] || CT.C15, 200, C[16] || CT.C16, 300, C[17] || CT.C17, 400, C[18] || CT.C18, 500, C[19] || CT.C19, 600, C[20] || CT.C20, 700, C[21] || CT.C21, 800, C[22] || CT.C22, 900, C[23] || CT.C23]);
+    },
+    get C12() {
+      return C[12] = dart.const({
+        __proto__: colors.MaterialColor.prototype,
+        [Color_value]: 4294198070.0,
+        [ColorSwatch__swatch]: C[13] || CT.C13
+      });
+    },
+    get C26() {
+      return C[26] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294966759.0
+      });
+    },
+    get C27() {
+      return C[27] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294965700.0
+      });
+    },
+    get C28() {
+      return C[28] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294964637.0
+      });
+    },
+    get C29() {
+      return C[29] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294963574.0
+      });
+    },
+    get C30() {
+      return C[30] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294962776.0
+      });
+    },
+    get C31() {
+      return C[31] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294961979.0
+      });
+    },
+    get C32() {
+      return C[32] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294826037.0
+      });
+    },
+    get C33() {
+      return C[33] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294688813.0
+      });
+    },
+    get C34() {
+      return C[34] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294551589.0
+      });
+    },
+    get C35() {
+      return C[35] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294278935.0
+      });
+    },
+    get C25() {
+      return C[25] = dart.constMap(core.int, ui.Color, [50, C[26] || CT.C26, 100, C[27] || CT.C27, 200, C[28] || CT.C28, 300, C[29] || CT.C29, 400, C[30] || CT.C30, 500, C[31] || CT.C31, 600, C[32] || CT.C32, 700, C[33] || CT.C33, 800, C[34] || CT.C34, 900, C[35] || CT.C35]);
+    },
+    get C24() {
+      return C[24] = dart.const({
+        __proto__: colors.MaterialColor.prototype,
+        [Color_value]: 4294961979.0,
+        [ColorSwatch__swatch]: C[25] || CT.C25
+      });
+    },
+    get C36() {
+      return C[36] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294967295.0
+      });
+    },
+    get C37() {
+      return C[37] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4278190080.0
+      });
+    },
+    get C40() {
+      return C[40] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294638330.0
+      });
+    },
+    get C41() {
+      return C[41] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294309365.0
+      });
+    },
+    get C42() {
+      return C[42] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4293848814.0
+      });
+    },
+    get C43() {
+      return C[43] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4292927712.0
+      });
+    },
+    get C44() {
+      return C[44] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4292269782.0
+      });
+    },
+    get C45() {
+      return C[45] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4290624957.0
+      });
+    },
+    get C46() {
+      return C[46] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4288585374.0
+      });
+    },
+    get C47() {
+      return C[47] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4285887861.0
+      });
+    },
+    get C48() {
+      return C[48] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4284572001.0
+      });
+    },
+    get C49() {
+      return C[49] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4282532418.0
+      });
+    },
+    get C50() {
+      return C[50] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4281348144.0
+      });
+    },
+    get C51() {
+      return C[51] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4280361249.0
+      });
+    },
+    get C39() {
+      return C[39] = dart.constMap(core.int, ui.Color, [50, C[40] || CT.C40, 100, C[41] || CT.C41, 200, C[42] || CT.C42, 300, C[43] || CT.C43, 350, C[44] || CT.C44, 400, C[45] || CT.C45, 500, C[46] || CT.C46, 600, C[47] || CT.C47, 700, C[48] || CT.C48, 800, C[49] || CT.C49, 850, C[50] || CT.C50, 900, C[51] || CT.C51]);
+    },
+    get C38() {
+      return C[38] = dart.const({
+        __proto__: colors.MaterialColor.prototype,
+        [Color_value]: 4288585374.0,
+        [ColorSwatch__swatch]: C[39] || CT.C39
+      });
+    },
+    get C54() {
+      return C[54] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4293457385.0
+      });
+    },
+    get C55() {
+      return C[55] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4291356361.0
+      });
+    },
+    get C56() {
+      return C[56] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4289058471.0
+      });
+    },
+    get C57() {
+      return C[57] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4286695300.0
+      });
+    },
+    get C58() {
+      return C[58] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4284922730.0
+      });
+    },
+    get C59() {
+      return C[59] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4283215696.0
+      });
+    },
+    get C60() {
+      return C[60] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4282622023.0
+      });
+    },
+    get C61() {
+      return C[61] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4281896508.0
+      });
+    },
+    get C62() {
+      return C[62] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4281236786.0
+      });
+    },
+    get C63() {
+      return C[63] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4279983648.0
+      });
+    },
+    get C53() {
+      return C[53] = dart.constMap(core.int, ui.Color, [50, C[54] || CT.C54, 100, C[55] || CT.C55, 200, C[56] || CT.C56, 300, C[57] || CT.C57, 400, C[58] || CT.C58, 500, C[59] || CT.C59, 600, C[60] || CT.C60, 700, C[61] || CT.C61, 800, C[62] || CT.C62, 900, C[63] || CT.C63]);
+    },
+    get C52() {
+      return C[52] = dart.const({
+        __proto__: colors.MaterialColor.prototype,
+        [Color_value]: 4283215696.0,
+        [ColorSwatch__swatch]: C[53] || CT.C53
+      });
+    },
+    get C66() {
+      return C[66] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4293128957.0
+      });
+    },
+    get C67() {
+      return C[67] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4290502395.0
+      });
+    },
+    get C68() {
+      return C[68] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4287679225.0
+      });
+    },
+    get C69() {
+      return C[69] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4284790262.0
+      });
+    },
+    get C70() {
+      return C[70] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4282557941.0
+      });
+    },
+    get C71() {
+      return C[71] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4280391411.0
+      });
+    },
+    get C72() {
+      return C[72] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4280191205.0
+      });
+    },
+    get C73() {
+      return C[73] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4279858898.0
+      });
+    },
+    get C74() {
+      return C[74] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4279592384.0
+      });
+    },
+    get C75() {
+      return C[75] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4279060385.0
+      });
+    },
+    get C65() {
+      return C[65] = dart.constMap(core.int, ui.Color, [50, C[66] || CT.C66, 100, C[67] || CT.C67, 200, C[68] || CT.C68, 300, C[69] || CT.C69, 400, C[70] || CT.C70, 500, C[71] || CT.C71, 600, C[72] || CT.C72, 700, C[73] || CT.C73, 800, C[74] || CT.C74, 900, C[75] || CT.C75]);
+    },
+    get C64() {
+      return C[64] = dart.const({
+        __proto__: colors.MaterialColor.prototype,
+        [Color_value]: 4280391411.0,
+        [ColorSwatch__swatch]: C[65] || CT.C65
+      });
+    },
+    get C78() {
+      return C[78] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4286755327.0
+      });
+    },
+    get C79() {
+      return C[79] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4282682111.0
+      });
+    },
+    get C80() {
+      return C[80] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4280908287.0
+      });
+    },
+    get C81() {
+      return C[81] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4280902399.0
+      });
+    },
+    get C77() {
+      return C[77] = dart.constMap(core.int, ui.Color, [100, C[78] || CT.C78, 200, C[79] || CT.C79, 400, C[80] || CT.C80, 700, C[81] || CT.C81]);
+    },
+    get C76() {
+      return C[76] = dart.const({
+        __proto__: colors.MaterialAccentColor.prototype,
+        [Color_value]: 4282682111.0,
+        [ColorSwatch__swatch]: C[77] || CT.C77
+      });
+    },
+    get C82() {
+      return C[82] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294932035.0
+      });
+    },
+    get C83() {
+      return C[83] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294962399.0
+      });
+    },
+    get C86() {
+      return C[86] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294944062.0
+      });
+    },
+    get C85() {
+      return C[85] = dart.constList([C[86] || CT.C86, C[82] || CT.C82], ui.Color);
+    },
+    get C87() {
+      return C[87] = dart.const({
+        __proto__: ui.TileMode.prototype,
+        [_name]: "TileMode.clamp",
+        index: 0
+      });
+    },
+    get C88() {
+      return C[88] = dart.const({
+        __proto__: alignment.Alignment.prototype,
+        [Alignment_y]: 1,
+        [Alignment_x]: 1
+      });
+    },
+    get C89() {
+      return C[89] = dart.const({
+        __proto__: alignment.Alignment.prototype,
+        [Alignment_y]: -1,
+        [Alignment_x]: -1
+      });
+    },
+    get C84() {
+      return C[84] = dart.const({
+        __proto__: gradient.LinearGradient.prototype,
+        [Gradient_transform]: null,
+        [Gradient_stops]: null,
+        [Gradient_colors]: C[85] || CT.C85,
+        [LinearGradient_tileMode]: C[87] || CT.C87,
+        [LinearGradient_end]: C[88] || CT.C88,
+        [LinearGradient_begin]: C[89] || CT.C89
+      });
+    },
+    get C90() {
+      return C[90] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4288124823.0
+      });
+    },
+    get C91() {
+      return C[91] = dart.const({
+        __proto__: core.Duration.prototype,
+        [Duration__duration]: 200000
+      });
+    }
+  }, false);
+  var C = Array(92).fill(void 0);
+  var Color_value = dart.privateName(ui, "Color.value");
+  var ColorSwatch__swatch = dart.privateName(colors$, "ColorSwatch._swatch");
+  var Gradient_transform = dart.privateName(gradient, "Gradient.transform");
+  var Gradient_stops = dart.privateName(gradient, "Gradient.stops");
+  var Gradient_colors = dart.privateName(gradient, "Gradient.colors");
+  var _name = dart.privateName(ui, "_name");
+  var LinearGradient_tileMode = dart.privateName(gradient, "LinearGradient.tileMode");
+  var Alignment_y = dart.privateName(alignment, "Alignment.y");
+  var Alignment_x = dart.privateName(alignment, "Alignment.x");
+  var LinearGradient_end = dart.privateName(gradient, "LinearGradient.end");
+  var LinearGradient_begin = dart.privateName(gradient, "LinearGradient.begin");
+  var Duration__duration = dart.privateName(core, "Duration._duration");
+  dart.defineLazy(style, {
+    /*style.primary*/get primary() {
+      return C[0] || CT.C0;
+    },
+    /*style.red*/get red() {
+      return C[12] || CT.C12;
+    },
+    /*style.yellow*/get yellow() {
+      return C[24] || CT.C24;
+    },
+    /*style.white*/get white() {
+      return C[36] || CT.C36;
+    },
+    /*style.black*/get black() {
+      return C[37] || CT.C37;
+    },
+    /*style.grey*/get grey() {
+      return C[38] || CT.C38;
+    },
+    /*style.green*/get green() {
+      return C[52] || CT.C52;
+    },
+    /*style.kSpace*/get kSpace() {
+      return 10;
+    },
+    /*style.blue*/get blue() {
+      return C[64] || CT.C64;
+    },
+    /*style.lightBlue*/get lightBlue() {
+      return C[76] || CT.C76;
+    },
+    /*style.kPrimaryColor*/get kPrimaryColor() {
+      return C[82] || CT.C82;
+    },
+    /*style.kPrimaryLightColor*/get kPrimaryLightColor() {
+      return C[83] || CT.C83;
+    },
+    /*style.kPrimaryGradientColor*/get kPrimaryGradientColor() {
+      return C[84] || CT.C84;
+    },
+    /*style.kSecondaryColor*/get kSecondaryColor() {
+      return C[90] || CT.C90;
+    },
+    /*style.kTextColor*/get kTextColor() {
+      return C[47] || CT.C47;
+    },
+    /*style.kAnimationDuration*/get kAnimationDuration() {
+      return C[91] || CT.C91;
+    }
+  }, false);
+  dart.trackLibraries("packages/smw_shop_backend/helper/style.dart", {
+    "package:smw_shop_backend/helper/style.dart": style
+  }, {
+  }, '{"version":3,"sourceRoot":"","sources":["style.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;MAEY,aAAO;;;MACZ,SAAG;;;MACH,YAAM;;;MACD,WAAK;;;MACL,WAAK;;;MACL,UAAI;;;MACJ,WAAK;;;MACJ,YAAM;;;MACP,UAAI;;;MACJ,eAAS;;;MACf,mBAAa;;;MACb,wBAAkB;;;MAClB,2BAAqB;;;MAKrB,qBAAe;;;MACf,gBAAU;;;MAEV,wBAAkB","file":"../../../../packages/smw_shop_backend/helper/style.dart.lib.js"}');
+  // Exports:
+  return {
+    helper__style: style
+  };
+}));
+
+//# sourceMappingURL=style.dart.lib.js.map

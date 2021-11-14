@@ -18,6 +18,7 @@ class SizeConfig {
 // Get the proportionate height as per screen size
 double getProportionateScreenHeight(double inputHeight) {
   double screenHeight = SizeConfig.screenHeight;
+  debugPrint("Screen Height: $screenHeight");
   // 812 is the layout height that designer use
   return (inputHeight / 812.0) * screenHeight;
 }
@@ -25,6 +26,7 @@ double getProportionateScreenHeight(double inputHeight) {
 // Get the proportionate height as per screen size
 double getProportionateScreenWidth(double inputWidth) {
   double screenWidth = SizeConfig.screenWidth;
+  debugPrint("Screen Width: $screenWidth");
   // 375 is the layout width that designer use
   return (inputWidth / 375.0) * screenWidth;
 }
