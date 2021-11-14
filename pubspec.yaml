@@ -52,6 +52,7 @@ flutter:
     - assets/background/
     - assets/icons/
     - assets/images/
+    - assets/splash_lottie.json
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
