@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/smw_shop_backend/BuildConfig.java
+ com.example.smw_shop_backend.BuildConfig
