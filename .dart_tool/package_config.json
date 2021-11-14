@@ -2,6 +2,12 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "archive",
+      "rootUri": "file:///D:/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/archive-3.1.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "async",
       "rootUri": "file:///D:/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.6.1",
       "packageUri": "lib/",
@@ -142,6 +148,12 @@
     {
       "name": "js",
       "rootUri": "file:///D:/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "lottie",
+      "rootUri": "file:///D:/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/lottie-1.2.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -314,7 +326,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-11-14T09:19:34.338402Z",
+  "generated": "2021-11-14T09:47:03.322Z",
   "generator": "pub",
   "generatorVersion": "2.13.1"
 }

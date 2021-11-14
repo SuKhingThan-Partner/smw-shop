@@ -4,6 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:smw_shop_backend/views/home/home_screen.dart';
+import 'package:smw_shop_backend/views/launch/launch.dart';
 import 'package:smw_shop_backend/views/login/login_screen.dart';
 
 import 'controller/user_controller.dart';
@@ -32,7 +33,7 @@ class ScreenController extends StatelessWidget{
     final UserController userController= Get.put(UserController());
     switch (userController.status){
       case Status.Uninitialized:
-        return LoginPage();
+        return SplashScreen();
       case Status.Authenticated:
         return HomeScreen();
       default: return LoginPage();
