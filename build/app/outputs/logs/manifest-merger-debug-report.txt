@@ -5,6 +5,7 @@ INJECTED from D:\flutter_project\smw_shop_backend\android\app\src\main\AndroidMa
 INJECTED from D:\flutter_project\smw_shop_backend\android\app\src\main\AndroidManifest.xml:1:1-63:12
 INJECTED from D:\flutter_project\smw_shop_backend\android\app\src\main\AndroidManifest.xml:1:1-63:12
 MERGED from D:\flutter_project\smw_shop_backend\android\app\src\main\AndroidManifest.xml:1:1-63:12
+MERGED from [:connectivity] D:\flutter_project\smw_shop_backend\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:path_provider] D:\flutter_project\smw_shop_backend\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:flutter_facebook_auth] D:\flutter_project\smw_shop_backend\build\flutter_facebook_auth\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.android:facebook-android-sdk:8.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\0679ee189571a9ab7f136cfbd9227db3\jetified-facebook-android-sdk-8.2.0\AndroidManifest.xml:21:1-31:12
@@ -210,6 +211,8 @@ uses-sdk
 INJECTED from D:\flutter_project\smw_shop_backend\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\flutter_project\smw_shop_backend\android\app\src\main\AndroidManifest.xml
 INJECTED from D:\flutter_project\smw_shop_backend\android\app\src\main\AndroidManifest.xml
+MERGED from [:connectivity] D:\flutter_project\smw_shop_backend\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:connectivity] D:\flutter_project\smw_shop_backend\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] D:\flutter_project\smw_shop_backend\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] D:\flutter_project\smw_shop_backend\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:flutter_facebook_auth] D:\flutter_project\smw_shop_backend\build\flutter_facebook_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
@@ -314,6 +317,10 @@ INJECTED from D:\flutter_project\smw_shop_backend\android\app\src\debug\AndroidM
 	android:minSdkVersion
 		INJECTED from D:\flutter_project\smw_shop_backend\android\app\src\main\AndroidManifest.xml
 		INJECTED from D:\flutter_project\smw_shop_backend\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:connectivity] D:\flutter_project\smw_shop_backend\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [:connectivity] D:\flutter_project\smw_shop_backend\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
 activity#com.facebook.CustomTabMainActivity
 ADDED from [com.facebook.android:facebook-common:12.0.1] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\27cd430fe867924a74b85c55837b0219\jetified-facebook-common-12.0.1\AndroidManifest.xml:34:9-71
 	android:name
