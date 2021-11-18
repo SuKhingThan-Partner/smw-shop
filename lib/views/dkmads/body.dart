@@ -8,12 +8,12 @@ import 'package:smw_shop_backend/views/dkmads/tab_bar_selection.dart';
 class Body extends StatelessWidget{
   @override
   Widget build(BuildContext context){
-    return SafeArea(child: SingleChildScrollView(
+    return SafeArea(
+        child: SingleChildScrollView(
       child: Column(
         children: [
-          SizedBox(height: getProportionateScreenHeight(20),),
+          SizedBox(height: getProportionateScreenHeight(0),),
           HomeHeader(),
-          SizedBox(height: getProportionateScreenHeight(20),),
           DateSelection(),
           TabBarSelection(),
           MainSelection(),
